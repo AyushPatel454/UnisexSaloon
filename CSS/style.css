@@ -297,10 +297,11 @@ body {
 #appoiment .form button {
     margin: 20px 0px;
     font-size: 1.8rem;
+    box-shadow: 3px -5px 20px 0px #ffdfba;
 }
 
 #appoiment .form button:hover {
-    background-color: #ef904d;
+    background-color: #f4cfb4;
     color: white;
     cursor: pointer;
 }
