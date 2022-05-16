@@ -369,6 +369,7 @@ p {
     }
     #navbar ul li a {
         font-size: 17px;
+        padding: 10px;
     }
 }
 @media screen and (max-width: 650px) {
@@ -438,7 +439,14 @@ p {
     #centers .center-information p {
         font-size: 1rem;
     }
+    #appoiment {
+        height: 930px;
+    }
     #appoiment::before {
-        height: 1000px;
+        height: 930px;
+    }
+    #appoiment h1 {
+        margin: 0px;
+        text-align: center;
     }
 }
