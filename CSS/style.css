@@ -406,7 +406,7 @@ p {
         height: 236px;
     }
     #centers::before {
-        height: 1683px;
+        height: 1180px;
     }
     #services .men, #services .women {
         grid-template-columns: 1fr;
@@ -438,5 +438,7 @@ p {
     #centers .center-information p {
         font-size: 1rem;
     }
-   
+    #appoiment::before {
+        height: 1000px;
+    }
 }
