@@ -137,7 +137,7 @@ body {
     justify-content: center;
 }
 
-#services .men h2 , #services .women h2{
+#services h2 , #services h2{
     grid-column-start: 1;
     grid-column-end: -1;
     text-align: center;
@@ -371,6 +371,13 @@ p {
     #navbar ul li a {
         font-size: 17px;
         padding: 10px;
+    }
+    #services .men, #services .women {
+        grid-template-columns: 1fr 1fr;
+    }
+    #services .men .child3th {
+        grid-column-start: 1;
+        grid-column-end: -1;
     }
 }
 @media screen and (max-width: 650px) {
