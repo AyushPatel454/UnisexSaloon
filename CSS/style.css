@@ -358,6 +358,15 @@ p {
         height: 1780px;
     }
 }
+@media screen and (max-width:1000px) {
+    #services .men, #services .women {
+        grid-template-columns: 1fr 1fr;
+    }
+    #services .men .child3th {
+        grid-column-start: 1;
+        grid-column-end: -1;
+    }
+}
 @media screen and (max-width: 867px) {
     #home p {
         font-size: 1rem;
@@ -372,13 +381,7 @@ p {
         font-size: 17px;
         padding: 10px;
     }
-    #services .men, #services .women {
-        grid-template-columns: 1fr 1fr;
-    }
-    #services .men .child3th {
-        grid-column-start: 1;
-        grid-column-end: -1;
-    }
+    
 }
 @media screen and (max-width: 650px) {
     #navbar {
