@@ -377,6 +377,9 @@ p {
     #centers::before {
         height: 1780px;
     }
+    #navbar ul {
+        margin: 15px;
+    }
     #navbar ul li a {
         font-size: 17px;
         padding: 10px;
@@ -390,7 +393,7 @@ p {
         align-items: center;
     }
     #home {
-        height: 302px;
+        height: 274px;
         display: block;
     }
     #home h1{
